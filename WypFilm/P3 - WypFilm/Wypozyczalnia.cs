@@ -9,7 +9,8 @@ namespace Wypozyczalnia
 {
     internal class Wypozyczalnia
     {
-        public static List<Klient> klienci = new List<Klient>();
+       
+        public static List<Klient> klienci = new List<Klient>();  
         public static List<Film> filmy = new List<Film>();
         public static List<Wypozyczenie> wypozyczenia = new List<Wypozyczenie>();
 
@@ -17,6 +18,7 @@ namespace Wypozyczalnia
         {
             Film nowy = new Film(filmy.Count + 1, rok_pr, tytul, gatunek, true);
             filmy.Add(nowy);
+
         }
 
         public void dodajKlient(string imie, string nazwisko, string mail, string telefon)
@@ -24,6 +26,5 @@ namespace Wypozyczalnia
             Klient nowy = new Klient(klienci.Count + 1, imie, nazwisko, mail, telefon, 3);
             klienci.Add(nowy);
         }
-
     }
 }

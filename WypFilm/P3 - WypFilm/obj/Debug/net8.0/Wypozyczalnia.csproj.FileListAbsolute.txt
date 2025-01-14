@@ -1,0 +1,120 @@
+C:\Users\student\Desktop\eoeoeo\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.exe
+C:\Users\student\Desktop\eoeoeo\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.deps.json
+C:\Users\student\Desktop\eoeoeo\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.runtimeconfig.json
+C:\Users\student\Desktop\eoeoeo\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.dll
+C:\Users\student\Desktop\eoeoeo\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.pdb
+C:\Users\student\Desktop\eoeoeo\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\Desktop\eoeoeo\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.AssemblyInfoInputs.cache
+C:\Users\student\Desktop\eoeoeo\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.AssemblyInfo.cs
+C:\Users\student\Desktop\eoeoeo\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\eoeoeo\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.dll
+C:\Users\student\Desktop\eoeoeo\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\refint\Wypozyczalnia.dll
+C:\Users\student\Desktop\eoeoeo\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.pdb
+C:\Users\student\Desktop\eoeoeo\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.genruntimeconfig.cache
+C:\Users\student\Desktop\eoeoeo\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\ref\Wypozyczalnia.dll
+C:\Users\student\Desktop\eoeoeo\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\student\Desktop\eoeoeo\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\eoeoeo\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozycz.36DCE05F.Up2Date
+C:\.Projekty\C#\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.exe
+C:\.Projekty\C#\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.deps.json
+C:\.Projekty\C#\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.runtimeconfig.json
+C:\.Projekty\C#\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.dll
+C:\.Projekty\C#\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.pdb
+C:\.Projekty\C#\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\.Projekty\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.csproj.AssemblyReference.cache
+C:\.Projekty\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.GeneratedMSBuildEditorConfig.editorconfig
+C:\.Projekty\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.AssemblyInfoInputs.cache
+C:\.Projekty\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.AssemblyInfo.cs
+C:\.Projekty\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.csproj.CoreCompileInputs.cache
+C:\.Projekty\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozycz.36DCE05F.Up2Date
+C:\.Projekty\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.dll
+C:\.Projekty\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\refint\Wypozyczalnia.dll
+C:\.Projekty\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.pdb
+C:\.Projekty\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.genruntimeconfig.cache
+C:\.Projekty\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\ref\Wypozyczalnia.dll
+C:\.Projekty\C#\P3 - WypFilm (bez listy w kliencie, pojebalo sie)\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.exe
+C:\.Projekty\C#\P3 - WypFilm (bez listy w kliencie, pojebalo sie)\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.deps.json
+C:\.Projekty\C#\P3 - WypFilm (bez listy w kliencie, pojebalo sie)\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.runtimeconfig.json
+C:\.Projekty\C#\P3 - WypFilm (bez listy w kliencie, pojebalo sie)\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.dll
+C:\.Projekty\C#\P3 - WypFilm (bez listy w kliencie, pojebalo sie)\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.pdb
+C:\.Projekty\C#\P3 - WypFilm (bez listy w kliencie, pojebalo sie)\P3 - WypFilm\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\.Projekty\C#\P3 - WypFilm (bez listy w kliencie, pojebalo sie)\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.csproj.AssemblyReference.cache
+C:\.Projekty\C#\P3 - WypFilm (bez listy w kliencie, pojebalo sie)\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.GeneratedMSBuildEditorConfig.editorconfig
+C:\.Projekty\C#\P3 - WypFilm (bez listy w kliencie, pojebalo sie)\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.AssemblyInfoInputs.cache
+C:\.Projekty\C#\P3 - WypFilm (bez listy w kliencie, pojebalo sie)\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.AssemblyInfo.cs
+C:\.Projekty\C#\P3 - WypFilm (bez listy w kliencie, pojebalo sie)\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.csproj.CoreCompileInputs.cache
+C:\.Projekty\C#\P3 - WypFilm (bez listy w kliencie, pojebalo sie)\P3 - WypFilm\obj\Debug\net8.0\Wypozycz.36DCE05F.Up2Date
+C:\.Projekty\C#\P3 - WypFilm (bez listy w kliencie, pojebalo sie)\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.dll
+C:\.Projekty\C#\P3 - WypFilm (bez listy w kliencie, pojebalo sie)\P3 - WypFilm\obj\Debug\net8.0\refint\Wypozyczalnia.dll
+C:\.Projekty\C#\P3 - WypFilm (bez listy w kliencie, pojebalo sie)\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.pdb
+C:\.Projekty\C#\P3 - WypFilm (bez listy w kliencie, pojebalo sie)\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.genruntimeconfig.cache
+C:\.Projekty\C#\P3 - WypFilm (bez listy w kliencie, pojebalo sie)\P3 - WypFilm\obj\Debug\net8.0\ref\Wypozyczalnia.dll
+D:\Kodowanie\C#\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.exe
+D:\Kodowanie\C#\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.deps.json
+D:\Kodowanie\C#\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.runtimeconfig.json
+D:\Kodowanie\C#\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.dll
+D:\Kodowanie\C#\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.pdb
+D:\Kodowanie\C#\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Kodowanie\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.csproj.AssemblyReference.cache
+D:\Kodowanie\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kodowanie\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.AssemblyInfoInputs.cache
+D:\Kodowanie\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.AssemblyInfo.cs
+D:\Kodowanie\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.csproj.CoreCompileInputs.cache
+D:\Kodowanie\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozycz.36DCE05F.Up2Date
+D:\Kodowanie\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.dll
+D:\Kodowanie\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\refint\Wypozyczalnia.dll
+D:\Kodowanie\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.pdb
+D:\Kodowanie\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.genruntimeconfig.cache
+D:\Kodowanie\C#\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\ref\Wypozyczalnia.dll
+C:\Users\szyme\Desktop\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.exe
+C:\Users\szyme\Desktop\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.deps.json
+C:\Users\szyme\Desktop\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.runtimeconfig.json
+C:\Users\szyme\Desktop\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.dll
+C:\Users\szyme\Desktop\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.pdb
+C:\Users\szyme\Desktop\P3 - WypFilm\P3 - WypFilm\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\szyme\Desktop\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.csproj.AssemblyReference.cache
+C:\Users\szyme\Desktop\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szyme\Desktop\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.AssemblyInfoInputs.cache
+C:\Users\szyme\Desktop\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.AssemblyInfo.cs
+C:\Users\szyme\Desktop\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.csproj.CoreCompileInputs.cache
+C:\Users\szyme\Desktop\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozycz.36DCE05F.Up2Date
+C:\Users\szyme\Desktop\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.dll
+C:\Users\szyme\Desktop\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\refint\Wypozyczalnia.dll
+C:\Users\szyme\Desktop\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.pdb
+C:\Users\szyme\Desktop\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.genruntimeconfig.cache
+C:\Users\szyme\Desktop\P3 - WypFilm\P3 - WypFilm\obj\Debug\net8.0\ref\Wypozyczalnia.dll
+C:\Users\szyme\Desktop\P3 - WypFilm do IO\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.exe
+C:\Users\szyme\Desktop\P3 - WypFilm do IO\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.deps.json
+C:\Users\szyme\Desktop\P3 - WypFilm do IO\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.runtimeconfig.json
+C:\Users\szyme\Desktop\P3 - WypFilm do IO\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.dll
+C:\Users\szyme\Desktop\P3 - WypFilm do IO\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.pdb
+C:\Users\szyme\Desktop\P3 - WypFilm do IO\P3 - WypFilm\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\szyme\Desktop\P3 - WypFilm do IO\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.csproj.AssemblyReference.cache
+C:\Users\szyme\Desktop\P3 - WypFilm do IO\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szyme\Desktop\P3 - WypFilm do IO\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.AssemblyInfoInputs.cache
+C:\Users\szyme\Desktop\P3 - WypFilm do IO\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.AssemblyInfo.cs
+C:\Users\szyme\Desktop\P3 - WypFilm do IO\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.csproj.CoreCompileInputs.cache
+C:\Users\szyme\Desktop\P3 - WypFilm do IO\P3 - WypFilm\obj\Debug\net8.0\Wypozycz.36DCE05F.Up2Date
+C:\Users\szyme\Desktop\P3 - WypFilm do IO\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.dll
+C:\Users\szyme\Desktop\P3 - WypFilm do IO\P3 - WypFilm\obj\Debug\net8.0\refint\Wypozyczalnia.dll
+C:\Users\szyme\Desktop\P3 - WypFilm do IO\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.pdb
+C:\Users\szyme\Desktop\P3 - WypFilm do IO\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.genruntimeconfig.cache
+C:\Users\szyme\Desktop\P3 - WypFilm do IO\P3 - WypFilm\obj\Debug\net8.0\ref\Wypozyczalnia.dll
+C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.exe
+C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.deps.json
+C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.runtimeconfig.json
+C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.dll
+C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.pdb
+C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.csproj.AssemblyReference.cache
+C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.AssemblyInfoInputs.cache
+C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.AssemblyInfo.cs
+C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.csproj.CoreCompileInputs.cache
+C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.sourcelink.json
+C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozycz.36DCE05F.Up2Date
+C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.dll
+C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\refint\Wypozyczalnia.dll
+C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.pdb
+C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.genruntimeconfig.cache
+C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\ref\Wypozyczalnia.dll
