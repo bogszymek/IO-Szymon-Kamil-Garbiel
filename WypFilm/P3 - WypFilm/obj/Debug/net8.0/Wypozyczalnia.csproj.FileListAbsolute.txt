@@ -118,3 +118,21 @@ C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj
 C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.pdb
 C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.genruntimeconfig.cache
 C:\Users\szyme\Documents\GitHub\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\ref\Wypozyczalnia.dll
+D:\Pliki\Dokumenty\Szkoła\Studia\Semestr 3\Inżynieria oprogramowania\Projekt\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.exe
+D:\Pliki\Dokumenty\Szkoła\Studia\Semestr 3\Inżynieria oprogramowania\Projekt\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.deps.json
+D:\Pliki\Dokumenty\Szkoła\Studia\Semestr 3\Inżynieria oprogramowania\Projekt\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.runtimeconfig.json
+D:\Pliki\Dokumenty\Szkoła\Studia\Semestr 3\Inżynieria oprogramowania\Projekt\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.dll
+D:\Pliki\Dokumenty\Szkoła\Studia\Semestr 3\Inżynieria oprogramowania\Projekt\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\bin\Debug\net8.0\Wypozyczalnia.pdb
+D:\Pliki\Dokumenty\Szkoła\Studia\Semestr 3\Inżynieria oprogramowania\Projekt\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Pliki\Dokumenty\Szkoła\Studia\Semestr 3\Inżynieria oprogramowania\Projekt\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.csproj.AssemblyReference.cache
+D:\Pliki\Dokumenty\Szkoła\Studia\Semestr 3\Inżynieria oprogramowania\Projekt\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pliki\Dokumenty\Szkoła\Studia\Semestr 3\Inżynieria oprogramowania\Projekt\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.AssemblyInfoInputs.cache
+D:\Pliki\Dokumenty\Szkoła\Studia\Semestr 3\Inżynieria oprogramowania\Projekt\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.AssemblyInfo.cs
+D:\Pliki\Dokumenty\Szkoła\Studia\Semestr 3\Inżynieria oprogramowania\Projekt\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.csproj.CoreCompileInputs.cache
+D:\Pliki\Dokumenty\Szkoła\Studia\Semestr 3\Inżynieria oprogramowania\Projekt\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.sourcelink.json
+D:\Pliki\Dokumenty\Szkoła\Studia\Semestr 3\Inżynieria oprogramowania\Projekt\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozycz.36DCE05F.Up2Date
+D:\Pliki\Dokumenty\Szkoła\Studia\Semestr 3\Inżynieria oprogramowania\Projekt\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.dll
+D:\Pliki\Dokumenty\Szkoła\Studia\Semestr 3\Inżynieria oprogramowania\Projekt\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\refint\Wypozyczalnia.dll
+D:\Pliki\Dokumenty\Szkoła\Studia\Semestr 3\Inżynieria oprogramowania\Projekt\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.pdb
+D:\Pliki\Dokumenty\Szkoła\Studia\Semestr 3\Inżynieria oprogramowania\Projekt\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\Wypozyczalnia.genruntimeconfig.cache
+D:\Pliki\Dokumenty\Szkoła\Studia\Semestr 3\Inżynieria oprogramowania\Projekt\IO-Szymon-Kamil-Garbiel\WypFilm\P3 - WypFilm\obj\Debug\net8.0\ref\Wypozyczalnia.dll
