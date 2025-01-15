@@ -76,8 +76,64 @@ namespace Wypozyczalnia
                     case 6:
                         break;
                     case 7:
+                        Console.Write("Wpisz swoje ID klienta:");
+                        int idKlientView = Convert.ToInt16(Console.ReadLine());
+                        Klient klientView = Wypozyczalnia.klienci[idKlientView - 1];
+
+                        var wypozyczeniaKlientaView = Wypozyczalnia.wypozyczenia.Where(w => w.klient.id == idKlientView).ToList();
+
+                        if (klientView == null)
+                        {
+                            Console.WriteLine("Nie znaleziono klienta o podanym ID.");
+                            break;
+                        }
+
+                        else if (klientView.akt_wyp == 0)
+                        {
+                            Console.WriteLine("\nKlient nie ma aktualnie wypożyczonych filmów.");
+                            break;
+                        }
+                        else
+                        {
+                            Console.WriteLine($"Wypożyczenia klienta {klientView.imie} {klientView.nazwisko}:");
+                            Wypozyczenie.WyswietlAktWypozyczeniaUsera(idKlientView);
+                            foreach (var wypo in wypozyczeniaKlientaView)
+                            {
+                                if (wypo.DataZwrotu == null)
+                                    Console.WriteLine("[NIEZWRÓCONY] " + wypo.film.tytul + " Data wypożyczenia: " + wypo.DataWypozyczenia);
+                            }
+                        }
+
                         break;
                     case 8:
+                        Console.Write("Wpisz swoje ID klienta:");
+                        int idKlientView2 = Convert.ToInt16(Console.ReadLine());
+                        Klient klientView2 = Wypozyczalnia.klienci[idKlientView2 - 1];
+
+                        var wypozyczeniaKlientaView2 = Wypozyczalnia.wypozyczenia.Where(w => w.klient.id == idKlientView2).ToList();
+
+                        if (klientView2 == null)
+                        {
+                            Console.WriteLine("Nie znaleziono klienta o podanym ID.");
+                            break;
+                        }
+
+                        else if (klientView2.akt_wyp == 0)
+                        {
+                            Console.WriteLine("\nKlient nie ma aktualnie wypożyczonych filmów.");
+                            break;
+                        }
+                        else
+                        {
+                            Console.WriteLine($"Historia wypożyczeń klienta {klientView2.imie} {klientView2.nazwisko}:");
+                            Wypozyczenie.WyswietlHistorieWypozyczenUsera(idKlientView2);
+                            foreach (var wypo in wypozyczeniaKlientaView2)
+                            {
+                                if (wypo.DataZwrotu != null)
+                                    Console.WriteLine(wypo.film.tytul + " Data wypożyczenia: " + wypo.DataWypozyczenia + " Data zwrotu: " + wypo.DataZwrotu);
+                            }
+
+                        }
                         break;
                     case 9:
                         break;
