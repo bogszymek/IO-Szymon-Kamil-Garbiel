@@ -187,7 +187,6 @@ namespace Wypozyczalnia
                                 if (wypo.DataZwrotu != null)
                                     Console.WriteLine(wypo.film.tytul + " Data wypożyczenia: " + wypo.DataWypozyczenia + " Data zwrotu: " + wypo.DataZwrotu);
                             }
-
                         }
                         break;
                     case 9:
@@ -196,6 +195,9 @@ namespace Wypozyczalnia
                         break;
                 }
                 OdczytZapis.ZapiszDaneDoPliku(Wypozyczalnia.filmy, Wypozyczalnia.klienci, Wypozyczalnia.wypozyczenia, filePathFilmy, filePathKlienci, filePathWypozyczenia);
+                Console.WriteLine("\nNaciśnij dowolny klawisz aby kontynuować...");
+                Console.ReadKey();
+                Console.Clear();
             } while (!wyjscie);
         }
     }
