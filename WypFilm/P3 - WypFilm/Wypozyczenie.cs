@@ -65,7 +65,33 @@ namespace Wypozyczalnia
             }
             else return "\nNie wypożyczono tego filmu!";
         }
+
+        public static List<Wypozyczenie> WyswietlAktWypozyczeniaUsera(int idKlient)
+        {
+            Klient klient = Wypozyczalnia.klienci[idKlient - 1];
+            var wypozyczeniaKlienta = Wypozyczalnia.wypozyczenia.Where(w => w.klient.id == idKlient).ToList();
+            List<Wypozyczenie> nieZw = new List<Wypozyczenie>();
+            foreach (var wypo in wypozyczeniaKlienta)
+            {
+                if (wypo.DataZwrotu == null)
+                    nieZw.Add(wypo);
+            }
+            return nieZw;
+        }
+
+        public static List<Wypozyczenie> WyswietlHistorieWypozyczenUsera(int idKlient)
+        {
+            Klient klient = Wypozyczalnia.klienci[idKlient - 1];
+
+            var wypozyczeniaKlienta = Wypozyczalnia.wypozyczenia.Where(w => w.klient.id == idKlient && w.DataZwrotu != null).ToList();
+
+            List<Wypozyczenie> historia = new List<Wypozyczenie>();
+            foreach (var wypo in wypozyczeniaKlienta)
+            {
+                if (wypo.DataZwrotu != null)
+                    historia.Add(wypo);
+            }
+            return historia;
+        }
     }
-
-
 }

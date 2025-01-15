@@ -32,8 +32,40 @@ namespace Wypozyczalnia
                 switch (wybor)
                 {
                     case 1:
+                        Console.Write("Wpisz swoje ID klienta:");
+                        int idKlientWyp = Convert.ToInt16(Console.ReadLine());
+                        Console.WriteLine("\nWybierz film do wypożyczena: ");
+                        foreach (var film in Wypozyczalnia.filmy)
+                        {
+                            if (film.dostepnosc == true)
+                            {
+                                Console.WriteLine($"ID: {film.id}, Tytuł: {film.tytul}, Rok: {film.rok_pr}, Gatunek: {film.gatunek}");
+                            }
+                        }
+                        Console.Write("\nWybierz ID filmu do wypożyczenia: ");
+                        int idFilm = Convert.ToInt16(Console.ReadLine());
+                        Console.WriteLine(Wypozyczenie.RejestracjaWypozyczenia(idKlientWyp, idFilm));
+
                         break;
                     case 2:
+                        Console.Write("Wpisz swoje ID klienta:");
+                        int idKlientZw = Convert.ToInt16(Console.ReadLine());
+                        Klient klientZw = Wypozyczalnia.klienci[idKlientZw - 1];
+                        var wypozyczeniaKlienta = Wypozyczalnia.wypozyczenia.Where(w => w.klient.id == idKlientZw && w.DataZwrotu == null).ToList();
+                        if (wypozyczeniaKlienta.Count == 0 && klientZw.akt_wyp == 0)
+                        {
+                            Console.WriteLine("\nBrak wypożyczonych filmów!");
+                        }
+                        else
+                        {
+                            foreach (var wypo in wypozyczeniaKlienta)
+                            {
+                                Console.WriteLine($"{wypo.film.id}. {wypo.film.tytul}");
+                            }
+                            Console.Write("Podaj ID filmu który chcesz zwrócić: ");
+                            int idZw = Convert.ToInt16(Console.ReadLine());
+                            Console.WriteLine(Wypozyczenie.RejestracjaZwrotu(idKlientZw, idZw));
+                        }
                         break;
                     case 3:
                         break;
