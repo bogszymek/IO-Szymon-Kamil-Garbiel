@@ -9,12 +9,27 @@ namespace Wypozyczalnia
 {
     internal class Program
     {
-        
         static void Main(string[] args)
         {
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+
+            string dataDirectory = Path.Combine(baseDirectory, "Data");
+            string filePathKlienci = Path.Combine(dataDirectory, "klienci.json");
+            string filePathFilmy = Path.Combine(dataDirectory, "filmy.json");
+            string filePathWypozyczenia = Path.Combine(dataDirectory, "wypozyczenia.json");
+
+            if (!Directory.Exists(dataDirectory))
+            {
+                Console.WriteLine($"Katalog {dataDirectory} nie istnieje.");
+                return;
+            }
+
             Wypozyczalnia wypozyczalnia = new Wypozyczalnia();
+
             bool wyjscie = false;
-            do {
+            Console.WriteLine(OdczytZapis.OdczytajzPliku(filePathFilmy, filePathKlienci, filePathWypozyczenia));
+            do
+            {
                 Console.WriteLine();
                 Console.WriteLine("Witaj w Wypożyczalni Filmów!");
                 Console.WriteLine("1. Wypozyczenie filmu");
@@ -177,12 +192,11 @@ namespace Wypozyczalnia
                         break;
                     case 9:
                         wyjscie = true;
+                        Console.WriteLine(OdczytZapis.ZapiszDaneDoPliku(Wypozyczalnia.filmy, Wypozyczalnia.klienci, Wypozyczalnia.wypozyczenia, filePathFilmy, filePathKlienci, filePathWypozyczenia));
                         break;
                 }
+                OdczytZapis.ZapiszDaneDoPliku(Wypozyczalnia.filmy, Wypozyczalnia.klienci, Wypozyczalnia.wypozyczenia, filePathFilmy, filePathKlienci, filePathWypozyczenia);
             } while (!wyjscie);
         }
-
-        
-
     }
 }
