@@ -68,12 +68,52 @@ namespace Wypozyczalnia
                         }
                         break;
                     case 3:
+                        if (Wypozyczalnia.filmy.Count == 0)
+                        {
+                            Console.WriteLine("Brak filmow");
+                        }
+                        foreach (var film in Wypozyczalnia.filmy)
+                        {
+                            if (film.dostepnosc == false)
+                                Console.WriteLine($"ID: {film.id}, Tytuł: {film.tytul}, Rok: {film.rok_pr}, Gatunek: {film.gatunek}, Dostępność: Niedostępny");
+                            else
+                                Console.WriteLine($"ID: {film.id}, Tytuł: {film.tytul}, Rok: {film.rok_pr}, Gatunek: {film.gatunek}, Dostępność: Dostępny");
+                        }
                         break;
                     case 4:
+                        if (Wypozyczalnia.klienci.Count == 0)
+                        {
+                            Console.WriteLine("Brak klientow");
+                        }
+                        foreach (var klient in Wypozyczalnia.klienci)
+                        {
+                            Console.WriteLine($"ID: {klient.id}, Imię: {klient.imie}, Nazwisko: {klient.nazwisko}, Mail: {klient.mail}, Telefon: {klient.telefon}, Max wypożyczeń: {klient.max_wyp}, Aktualnie wypożeczeń: {klient.akt_wyp}");
+
+                        }
                         break;
                     case 5:
+                        Console.WriteLine("Dodawanie nowego filmu:");
+                        Console.Write("Tytuł: ");
+                        string tytul = Console.ReadLine();
+                        Console.Write("Rok produkcji: ");
+                        int rok_pr = Convert.ToInt32(Console.ReadLine());
+                        Console.Write("Gatunek:");
+                        string gatunek = Console.ReadLine();
+                        wypozyczalnia.dodajFilm(tytul, rok_pr, gatunek);
+                        Console.WriteLine("Dodano film");
                         break;
                     case 6:
+                        Console.WriteLine("Dodawanie nowego klienta:");
+                        Console.Write("Imię:");
+                        string imie = Console.ReadLine();
+                        Console.Write("Nazwisko:");
+                        string nazwisko = Console.ReadLine();
+                        Console.Write("Mail:");
+                        string mail = Console.ReadLine();
+                        Console.Write("Telefon:");
+                        string telefon = Console.ReadLine();
+                        wypozyczalnia.dodajKlient(imie, nazwisko, mail, telefon);
+                        Console.WriteLine("Dodano klienta");
                         break;
                     case 7:
                         Console.Write("Wpisz swoje ID klienta:");
@@ -136,6 +176,7 @@ namespace Wypozyczalnia
                         }
                         break;
                     case 9:
+                        wyjscie = true;
                         break;
                 }
             } while (!wyjscie);
