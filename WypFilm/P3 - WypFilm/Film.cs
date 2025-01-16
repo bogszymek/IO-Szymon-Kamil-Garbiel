@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Wypozyczalnia
 {
-    internal class Film
+    public class Film
     {
         public int id, rok_pr;
         public string tytul, gatunek;

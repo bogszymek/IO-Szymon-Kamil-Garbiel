@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wypozyczalnia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb8469a37b7b0973b06f474d40581e679dbf4b06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67905fa1a06ae9009931e2a995bb81bd3c65d1ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wypozyczalnia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wypozyczalnia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

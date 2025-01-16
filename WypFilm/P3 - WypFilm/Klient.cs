@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 
 namespace Wypozyczalnia
 {
-    internal class Klient
+    public class Klient
     {
         public int id, max_wyp;
         public int akt_wyp = 0;

@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace Wypozyczalnia
 {
-    internal class Wypozyczenie
+    public class Wypozyczenie
     {
         public Film film;
         public Klient klient;

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Wypozyczalnia
 {
-    internal class OdczytZapis
+    public class OdczytZapis
 
     {
         public static string OdczytajzPliku(string filePatchFilmy, string filePatchKlienci, string filePatchWypozyczenia)

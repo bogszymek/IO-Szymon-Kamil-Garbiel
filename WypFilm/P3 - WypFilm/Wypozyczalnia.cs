@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Wypozyczalnia
 {
-    internal class Wypozyczalnia
+    public class Wypozyczalnia
     {
        
         public static List<Klient> klienci = new List<Klient>();  
