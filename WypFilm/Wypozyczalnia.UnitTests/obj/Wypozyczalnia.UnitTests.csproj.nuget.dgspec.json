@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\P3 - WypFilm\\Wypozyczalnia.csproj": {}
+    "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\Wypozyczalnia.UnitTests\\Wypozyczalnia.UnitTests.csproj": {}
   },
   "projects": {
-    "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\P3 - WypFilm\\Wypozyczalnia.csproj": {
+    "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\Wypozyczalnia.UnitTests\\Wypozyczalnia.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\P3 - WypFilm\\Wypozyczalnia.csproj",
-        "projectName": "Wypozyczalnia",
-        "projectPath": "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\P3 - WypFilm\\Wypozyczalnia.csproj",
+        "projectUniqueName": "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\Wypozyczalnia.UnitTests\\Wypozyczalnia.UnitTests.csproj",
+        "projectName": "Wypozyczalnia.UnitTests",
+        "projectPath": "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\Wypozyczalnia.UnitTests\\Wypozyczalnia.UnitTests.csproj",
         "packagesPath": "C:\\Users\\ravun\\.nuget\\packages\\",
-        "outputPath": "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\P3 - WypFilm\\obj\\",
+        "outputPath": "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\Wypozyczalnia.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ravun\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,9 +45,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Newtonsoft.Json": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[17.12.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.6.0, )"
             }
           },
           "imports": [
