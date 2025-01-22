@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\Wypozyczalnia.UnitTests\\Wypozyczalnia.UnitTests.csproj": {}
+    "C:\\Users\\szyme\\Documents\\GitHub\\IO-Szymon-Kamil-Garbiel\\WypFilm\\Wypozyczalnia.UnitTests\\Wypozyczalnia.UnitTests.csproj": {}
   },
   "projects": {
-    "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\P3 - WypFilm\\Wypozyczalnia.csproj": {
+    "C:\\Users\\szyme\\Documents\\GitHub\\IO-Szymon-Kamil-Garbiel\\WypFilm\\P3 - WypFilm\\Wypozyczalnia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\P3 - WypFilm\\Wypozyczalnia.csproj",
+        "projectUniqueName": "C:\\Users\\szyme\\Documents\\GitHub\\IO-Szymon-Kamil-Garbiel\\WypFilm\\P3 - WypFilm\\Wypozyczalnia.csproj",
         "projectName": "Wypozyczalnia",
-        "projectPath": "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\P3 - WypFilm\\Wypozyczalnia.csproj",
-        "packagesPath": "C:\\Users\\ravun\\.nuget\\packages\\",
-        "outputPath": "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\P3 - WypFilm\\obj\\",
+        "projectPath": "C:\\Users\\szyme\\Documents\\GitHub\\IO-Szymon-Kamil-Garbiel\\WypFilm\\P3 - WypFilm\\Wypozyczalnia.csproj",
+        "packagesPath": "C:\\Users\\szyme\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\szyme\\Documents\\GitHub\\IO-Szymon-Kamil-Garbiel\\WypFilm\\P3 - WypFilm\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ravun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\szyme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -66,21 +71,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\Wypozyczalnia.UnitTests\\Wypozyczalnia.UnitTests.csproj": {
+    "C:\\Users\\szyme\\Documents\\GitHub\\IO-Szymon-Kamil-Garbiel\\WypFilm\\Wypozyczalnia.UnitTests\\Wypozyczalnia.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\Wypozyczalnia.UnitTests\\Wypozyczalnia.UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\szyme\\Documents\\GitHub\\IO-Szymon-Kamil-Garbiel\\WypFilm\\Wypozyczalnia.UnitTests\\Wypozyczalnia.UnitTests.csproj",
         "projectName": "Wypozyczalnia.UnitTests",
-        "projectPath": "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\Wypozyczalnia.UnitTests\\Wypozyczalnia.UnitTests.csproj",
-        "packagesPath": "C:\\Users\\ravun\\.nuget\\packages\\",
-        "outputPath": "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\Wypozyczalnia.UnitTests\\obj\\",
+        "projectPath": "C:\\Users\\szyme\\Documents\\GitHub\\IO-Szymon-Kamil-Garbiel\\WypFilm\\Wypozyczalnia.UnitTests\\Wypozyczalnia.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\szyme\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\szyme\\Documents\\GitHub\\IO-Szymon-Kamil-Garbiel\\WypFilm\\Wypozyczalnia.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ravun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\szyme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,8 +103,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\P3 - WypFilm\\Wypozyczalnia.csproj": {
-                "projectPath": "D:\\Pliki\\Dokumenty\\Szkoła\\Studia\\Semestr 3\\Inżynieria oprogramowania\\Projekt\\IO-Szymon-Kamil-Garbiel\\WypFilm\\P3 - WypFilm\\Wypozyczalnia.csproj"
+              "C:\\Users\\szyme\\Documents\\GitHub\\IO-Szymon-Kamil-Garbiel\\WypFilm\\P3 - WypFilm\\Wypozyczalnia.csproj": {
+                "projectPath": "C:\\Users\\szyme\\Documents\\GitHub\\IO-Szymon-Kamil-Garbiel\\WypFilm\\P3 - WypFilm\\Wypozyczalnia.csproj"
               }
             }
           }
@@ -109,7 +118,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -144,7 +154,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
