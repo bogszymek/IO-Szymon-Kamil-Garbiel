@@ -2,7 +2,7 @@
     {
         "id": 1,
         "max_wyp": 3,
-        "akt_wyp": 2,
+        "akt_wyp": 0,
         "imie": "Jan",
         "nazwisko": "Nowak",
         "mail": "123@wp.pl",

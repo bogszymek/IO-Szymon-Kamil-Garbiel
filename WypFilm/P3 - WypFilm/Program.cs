@@ -173,11 +173,6 @@ namespace Wypozyczalnia
                             break;
                         }
 
-                        else if (klientView2.akt_wyp == 0)
-                        {
-                            Console.WriteLine("\nKlient nie ma aktualnie wypożyczonych filmów.");
-                            break;
-                        }
                         else
                         {
                             Console.WriteLine($"Historia wypożyczeń klienta {klientView2.imie} {klientView2.nazwisko}:");
