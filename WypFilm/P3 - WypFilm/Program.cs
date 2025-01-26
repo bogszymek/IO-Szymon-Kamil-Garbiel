@@ -40,7 +40,9 @@ namespace Wypozyczalnia
                 Console.WriteLine("6. Dodaj klienta");
                 Console.WriteLine("7. Wyświetl swoje akt. wypożyczenia");
                 Console.WriteLine("8. Wyświetl historię swoich wypożyczeń");
-                Console.WriteLine("9. Wyjście");
+                Console.WriteLine("9. Zapisz się do obserwowania filmu");
+                Console.WriteLine("10. Wypisz się z obserwowania filmu");
+                Console.WriteLine("11. Wyjście");
                 Console.Write("Wybierz opcje: ");
                 int wybor = Convert.ToInt16(Console.ReadLine());
                 Console.WriteLine("");
@@ -184,7 +186,48 @@ namespace Wypozyczalnia
                             }
                         }
                         break;
+                    
                     case 9:
+                        Console.Write("Podaj swoje ID klienta: ");
+                        int klientIdObs = Convert.ToInt16(Console.ReadLine());
+                        Console.Write("Podaj ID filmu do obserwowania: ");
+                        int filmIdObs = Convert.ToInt16(Console.ReadLine());
+
+                        if (klientIdObs > 0 && klientIdObs <= Wypozyczalnia.klienci.Count &&
+                            filmIdObs > 0 && filmIdObs <= Wypozyczalnia.filmy.Count)
+                        {
+                            Klient klientObs = Wypozyczalnia.klienci[klientIdObs - 1];
+                            Film filmObs = Wypozyczalnia.filmy[filmIdObs - 1];
+                            filmObs.DodajObserwatora(klientObs);
+                            Console.WriteLine($"Klient {klientObs.imie} {klientObs.nazwisko} został zapisany do obserwowania filmu '{filmObs.tytul}'.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Podano nieprawidłowe ID klienta lub filmu.");
+                        }
+                        break;
+
+                    case 10:
+                        Console.Write("Podaj swoje ID klienta: ");
+                        int klientIdOdobs = Convert.ToInt16(Console.ReadLine());
+                        Console.Write("Podaj ID filmu do wypisania: ");
+                        int filmIdOdobs = Convert.ToInt16(Console.ReadLine());
+
+                        if (klientIdOdobs> 0 && klientIdOdobs <= Wypozyczalnia.klienci.Count &&
+                            filmIdOdobs > 0 && filmIdOdobs <= Wypozyczalnia.filmy.Count)
+                        {
+                            Klient klientOdobs = Wypozyczalnia.klienci[klientIdOdobs- 1];
+                            Film filmOdobs = Wypozyczalnia.filmy[filmIdOdobs - 1];
+                            filmOdobs.UsunObserwatora(klientOdobs);
+                            Console.WriteLine($"Klient {klientOdobs.imie} {klientOdobs.nazwisko} został wypisany z obserwowania filmu '{filmOdobs.tytul}'.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Podano nieprawidłowe ID klienta lub filmu.");
+                        }
+                        break;
+
+                    case 11:
                         wyjscie = true;
                         Console.WriteLine(OdczytZapis.ZapiszDaneDoPliku(Wypozyczalnia.filmy, Wypozyczalnia.klienci, Wypozyczalnia.wypozyczenia, filePathFilmy, filePathKlienci, filePathWypozyczenia));
                         break;

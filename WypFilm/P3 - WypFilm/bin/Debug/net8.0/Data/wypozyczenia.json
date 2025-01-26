@@ -1,3 +1,1 @@
-[
-   
-]
+[{"film":{"id":1,"rok_pr":2024,"tytul":"Deadpool","gatunek":"Scifi","dostepnosc":false},"klient":{"id":1,"max_wyp":3,"akt_wyp":0,"imie":"Jan","nazwisko":"Nowak","mail":"123@wp.pl","telefon":"999"},"DataWypozyczenia":"2025-01-26T23:43:29.2688464+01:00","DataZwrotu":"2025-01-26T23:43:36.7487748+01:00"},{"film":{"id":1,"rok_pr":2024,"tytul":"Deadpool","gatunek":"Scifi","dostepnosc":false},"klient":{"id":2,"max_wyp":3,"akt_wyp":1,"imie":"Kacper","nazwisko":"Kowal","mail":"123@te.st","telefon":"998"},"DataWypozyczenia":"2025-01-26T23:43:43.5551781+01:00","DataZwrotu":"2025-01-26T23:45:15.3925199+01:00"},{"film":{"id":1,"rok_pr":2024,"tytul":"Deadpool","gatunek":"Scifi","dostepnosc":true},"klient":{"id":2,"max_wyp":3,"akt_wyp":0,"imie":"Kacper","nazwisko":"Kowal","mail":"123@te.st","telefon":"998"},"DataWypozyczenia":"2025-01-26T23:48:13.7402102+01:00","DataZwrotu":"2025-01-26T23:48:25.3781647+01:00"}]

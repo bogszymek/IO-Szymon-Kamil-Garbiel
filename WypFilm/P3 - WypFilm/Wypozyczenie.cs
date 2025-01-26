@@ -7,6 +7,11 @@ using System.Linq;
 
 namespace Wypozyczalnia
 {
+    public interface IObserver
+    {
+        void Powiadom(string wiadomosc);
+    }
+
     public class Wypozyczenie
     {
         public Film film;
@@ -38,7 +43,7 @@ namespace Wypozyczalnia
 
             }
 
-            film.dostepnosc = false;
+            film.zmianaDost();
             klient.akt_wyp++;
             Wypozyczenie noweWypozyczenie = new Wypozyczenie(film, klient);
             Wypozyczalnia.wypozyczenia.Add(noweWypozyczenie);
@@ -55,7 +60,7 @@ namespace Wypozyczalnia
                 Film film = Wypozyczalnia.filmy[idZw - 1];
                 if (film != null)
                 {
-                    film.dostepnosc = true;
+                    film.zmianaDost();
                 }
                 wypoDoZwrotu.DataZwrotu = DateTime.Now;
 

@@ -7,8 +7,13 @@ using Newtonsoft.Json;
 
 namespace Wypozyczalnia
 {
-    public class Klient
+    public class Klient : IObserver
     {
+        public void Powiadom(string wiadomosc)
+        {
+            Console.WriteLine($"[Powiadomienie dla {imie} {nazwisko}]: {wiadomosc}");
+        }
+
         public int id, max_wyp;
         public int akt_wyp = 0;
         public string imie, nazwisko, mail, telefon;
