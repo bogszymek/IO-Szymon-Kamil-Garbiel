@@ -1,62 +1,64 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 
 namespace Wypozyczalnia
 {
-    public class OdczytZapis
-
+    // Interfejs strategii dla operacji na plikach
+    public interface IStrategyPlik
     {
-        public static string OdczytajzPliku(string filePatchFilmy, string filePatchKlienci, string filePatchWypozyczenia)
+        void Zapisz<T>(List<T> dane, string sciezkaPliku);
+        List<T> Odczytaj<T>(string sciezkaPliku);
+    }
+
+    // Implementacja strategii dla JSON
+    public class JsonPlikStrategy : IStrategyPlik
+    {
+        public void Zapisz<T>(List<T> dane, string sciezkaPliku)
         {
-            if (!File.Exists(filePatchFilmy))
+            string json = JsonConvert.SerializeObject(dane, new JsonSerializerSettings
             {
-                Console.WriteLine("Plik filmy nie istnieje"); 
-                
-            }
-            if (!File.Exists(filePatchKlienci))
-            {
-                Console.WriteLine("Plik klienci nie istnieje");
-            }
-            if (!File.Exists(filePatchWypozyczenia))
-            {
-                Console.WriteLine("Plik wypozyczenia nie istnieje");
-
-            }
-
-            string jsonDaneFilmy = File.ReadAllText(filePatchFilmy);
-            string jsonDaneKlienci = File.ReadAllText(filePatchKlienci);
-            string jsonDaneWypozyczenia = File.ReadAllText(filePatchWypozyczenia);
-
-            Wypozyczalnia.klienci = JsonConvert.DeserializeObject<List<Klient>>(jsonDaneKlienci);
-            Wypozyczalnia.filmy = JsonConvert.DeserializeObject<List<Film>>(jsonDaneFilmy);
-            Wypozyczalnia.wypozyczenia = JsonConvert.DeserializeObject<List<Wypozyczenie>>(jsonDaneWypozyczenia);
-
-            return "Pomyślnie wczytano dane z plików";
+                ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+            });
+            File.WriteAllText(sciezkaPliku, json);
         }
 
-        public static string ZapiszDaneDoPliku(List<Film> filmy, List<Klient> klienci, List<Wypozyczenie> wypozyczenia, string filePatchFilmy, string filePatchKlienci, string filePatchWypozyczenia)
+        public List<T> Odczytaj<T>(string sciezkaPliku)
         {
-            
-            string jsonFilmy = JsonConvert.SerializeObject(filmy);
-            string jsonKlienci = JsonConvert.SerializeObject(klienci, new JsonSerializerSettings
+            if (!File.Exists(sciezkaPliku))
             {
-                ReferenceLoopHandling = ReferenceLoopHandling.Ignore
-            });
-            string jsonWypozyczenia = JsonConvert.SerializeObject(wypozyczenia, new JsonSerializerSettings
-            {
-                ReferenceLoopHandling = ReferenceLoopHandling.Ignore
-            });
+                Console.WriteLine($"Plik {sciezkaPliku} nie istnieje");
+                return new List<T>();
+            }
 
-            File.WriteAllText(filePatchFilmy, jsonFilmy);
-            File.WriteAllText(filePatchKlienci, jsonKlienci);
-            File.WriteAllText(filePatchWypozyczenia, jsonWypozyczenia);
+            string json = File.ReadAllText(sciezkaPliku);
+            return JsonConvert.DeserializeObject<List<T>>(json) ?? new List<T>();
+        }
+    }
 
-            return "Pomyślnie zapisano dane do plików";
-            
+    // Klasa zarządzająca zapisem i odczytem przy użyciu strategii
+    public class OdczytZapis
+    {
+        private static IStrategyPlik _strategy = new JsonPlikStrategy();
+
+        public static void ZmienStrategie(IStrategyPlik nowaStrategia)
+        {
+            _strategy = nowaStrategia;
+        }
+
+        public static void ZapiszDane(string fileFilmy, string fileKlienci, string fileWypozyczenia)
+        {
+            _strategy.Zapisz(Wypozyczalnia.filmy, fileFilmy);
+            _strategy.Zapisz(Wypozyczalnia.klienci, fileKlienci);
+            _strategy.Zapisz(Wypozyczalnia.wypozyczenia, fileWypozyczenia);
+        }
+
+        public static void OdczytajDane(string fileFilmy, string fileKlienci, string fileWypozyczenia)
+        {
+            Wypozyczalnia.filmy = _strategy.Odczytaj<Film>(fileFilmy);
+            Wypozyczalnia.klienci = _strategy.Odczytaj<Klient>(fileKlienci);
+            Wypozyczalnia.wypozyczenia = _strategy.Odczytaj<Wypozyczenie>(fileWypozyczenia);
         }
     }
 }

@@ -24,10 +24,13 @@ namespace Wypozyczalnia
                 return;
             }
 
+            // Ustawienie strategii na JSON
+            OdczytZapis.ZmienStrategie(new JsonPlikStrategy());
+            OdczytZapis.OdczytajDane(filePathFilmy, filePathKlienci, filePathWypozyczenia);
+
             Wypozyczalnia wypozyczalnia = new Wypozyczalnia();
 
             bool wyjscie = false;
-            Console.WriteLine(OdczytZapis.OdczytajzPliku(filePathFilmy, filePathKlienci, filePathWypozyczenia));
             do
             {
                 Console.WriteLine();
@@ -229,10 +232,10 @@ namespace Wypozyczalnia
 
                     case 11:
                         wyjscie = true;
-                        Console.WriteLine(OdczytZapis.ZapiszDaneDoPliku(Wypozyczalnia.filmy, Wypozyczalnia.klienci, Wypozyczalnia.wypozyczenia, filePathFilmy, filePathKlienci, filePathWypozyczenia));
+                        OdczytZapis.OdczytajDane(filePathFilmy, filePathKlienci, filePathWypozyczenia);
                         break;
                 }
-                OdczytZapis.ZapiszDaneDoPliku(Wypozyczalnia.filmy, Wypozyczalnia.klienci, Wypozyczalnia.wypozyczenia, filePathFilmy, filePathKlienci, filePathWypozyczenia);
+                OdczytZapis.ZapiszDane(filePathFilmy, filePathKlienci, filePathWypozyczenia);
                 Console.WriteLine("\nNaciśnij dowolny klawisz aby kontynuować...");
                 Console.ReadKey();
                 Console.Clear();
