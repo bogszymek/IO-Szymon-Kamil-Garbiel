@@ -16,9 +16,8 @@ namespace Wypozyczalnia
 
         public void dodajFilm(string tytul, int rok_pr, string gatunek)
         {
-            Film nowy = new Film(filmy.Count + 1, rok_pr, tytul, gatunek, true);
+            Film nowy = FilmFactory.StworzFilm(filmy.Count + 1, rok_pr, tytul, gatunek);
             filmy.Add(nowy);
-
         }
 
         public void dodajKlient(string imie, string nazwisko, string mail, string telefon)
